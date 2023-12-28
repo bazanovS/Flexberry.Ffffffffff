@@ -28,7 +28,7 @@ export default Controller.extend({
             link: 'i-i-s-ffffffffff-заказ-l',
             caption: i18n.t('forms.application.sitemap.клиентам.i-i-s-ffffffffff-заказ-l.caption'),
             title: i18n.t('forms.application.sitemap.клиентам.i-i-s-ffffffffff-заказ-l.title'),
-            icon: 'suitcase',
+            icon: 'file',
             children: null
           }]
         }, {
@@ -40,37 +40,37 @@ export default Controller.extend({
             link: 'i-i-s-ffffffffff-ингредиенты-l',
             caption: i18n.t('forms.application.sitemap.сотрудникам.i-i-s-ffffffffff-ингредиенты-l.caption'),
             title: i18n.t('forms.application.sitemap.сотрудникам.i-i-s-ffffffffff-ингредиенты-l.title'),
-            icon: 'tasks',
+            icon: 'building',
             children: null
           }, {
             link: 'i-i-s-ffffffffff-напитки-l',
             caption: i18n.t('forms.application.sitemap.сотрудникам.i-i-s-ffffffffff-напитки-l.caption'),
             title: i18n.t('forms.application.sitemap.сотрудникам.i-i-s-ffffffffff-напитки-l.title'),
-            icon: 'suitcase',
+            icon: 'edit',
             children: null
           }, {
             link: 'i-i-s-ffffffffff-проверка-денег-l',
             caption: i18n.t('forms.application.sitemap.сотрудникам.i-i-s-ffffffffff-проверка-денег-l.caption'),
             title: i18n.t('forms.application.sitemap.сотрудникам.i-i-s-ffffffffff-проверка-денег-l.title'),
-            icon: 'tags',
+            icon: 'chart line',
             children: null
           }, {
             link: 'i-i-s-ffffffffff-продукты-l',
             caption: i18n.t('forms.application.sitemap.сотрудникам.i-i-s-ffffffffff-продукты-l.caption'),
             title: i18n.t('forms.application.sitemap.сотрудникам.i-i-s-ffffffffff-продукты-l.title'),
-            icon: 'suitcase',
+            icon: 'chart bar',
             children: null
           }, {
             link: 'i-i-s-ffffffffff-составы-l',
             caption: i18n.t('forms.application.sitemap.сотрудникам.i-i-s-ffffffffff-составы-l.caption'),
             title: i18n.t('forms.application.sitemap.сотрудникам.i-i-s-ffffffffff-составы-l.title'),
-            icon: 'folder open',
+            icon: 'list',
             children: null
           }, {
             link: 'i-i-s-ffffffffff-сотрудники-l',
             caption: i18n.t('forms.application.sitemap.сотрудникам.i-i-s-ffffffffff-сотрудники-l.caption'),
             title: i18n.t('forms.application.sitemap.сотрудникам.i-i-s-ffffffffff-сотрудники-l.title'),
-            icon: 'archive',
+            icon: 'folder open',
             children: null
           }]
         }

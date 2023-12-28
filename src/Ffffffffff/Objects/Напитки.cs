@@ -30,13 +30,7 @@ namespace IIS.Ffffffffff
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("НапиткиE", new string[] {
             "Наименование as \'Наименование напитка\'",
-            "Цена as \'Цена\'",
-            "Составы.Наименование as \'Наименование\'",
-            "Составы as \'Составы\'",
-            "Ингредиенты as \'Ингредиенты\'"}, Hidden=new string[] {
-            "Составы.Наименование"})]
-    [MasterViewDefineAttribute("НапиткиE", "Составы", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "Наименование")]
-    [MasterViewDefineAttribute("НапиткиE", "Ингредиенты", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "Количество")]
+            "Цена as \'Цена\'"})]
     [View("НапиткиL", new string[] {
             "Наименование as \'Наименование напитка\'",
             "Цена as \'Цена\'"})]
