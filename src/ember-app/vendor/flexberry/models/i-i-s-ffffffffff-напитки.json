@@ -1,0 +1,126 @@
+﻿{
+  "name": "IISFfffffffffНапитки",
+  "modelName": "i-i-s-ffffffffff-напитки",
+  "className": "Напитки",
+  "nameSpace": "IIS.Ffffffffff",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "наименование",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "цена",
+      "type": "decimal",
+      "flexberryType": "double",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "ингредиенты",
+      "relatedTo": "i-i-s-ffffffffff-ингредиенты",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "составы",
+      "relatedTo": "i-i-s-ffffffffff-составы",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "НапиткиE",
+      "modelName": "i-i-s-ffffffffff-напитки",
+      "attrs": [
+        {
+          "name": "наименование",
+          "caption": "Наименование напитка",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "цена",
+          "caption": "Цена",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Составы",
+          "belongsTo": [],
+          "hidden": true,
+          "attrs": [
+            {
+              "name": "наименование",
+              "caption": "Наименование",
+              "hidden": true,
+              "index": 2
+            }
+          ],
+          "index": 3,
+          "type": "default",
+          "caption": "Наименование",
+          "name": "составы",
+          "relatedTo": "i-i-s-ffffffffff-составы",
+          "inverse": null
+        },
+        {
+          "lookupValue": "Количество",
+          "lookupValueField": "количество",
+          "relationName": "Ингредиенты",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [],
+          "index": 4,
+          "type": "standard",
+          "caption": "Ингредиенты",
+          "name": "ингредиенты",
+          "relatedTo": "i-i-s-ffffffffff-ингредиенты",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    },
+    {
+      "name": "НапиткиL",
+      "modelName": "i-i-s-ffffffffff-напитки",
+      "attrs": [
+        {
+          "name": "наименование",
+          "caption": "Наименование напитка",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "цена",
+          "caption": "Цена",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

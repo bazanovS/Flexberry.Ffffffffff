@@ -1,0 +1,72 @@
+﻿{
+  "applicationCaption": "Ffffffffff",
+  "applicationTitle": "Ffffffffff",
+  "items": [
+    {
+      "link": null,
+      "menuName": "клиентам",
+      "caption": "Клиентам",
+      "title": "Клиентам",
+      "children": [
+        {
+          "link": "i-i-s-ffffffffff-заказ-l",
+          "menuName": null,
+          "caption": "Заказ",
+          "title": "",
+          "children": null
+        }
+      ]
+    },
+    {
+      "link": null,
+      "menuName": "сотрудникам",
+      "caption": "Сотрудникам",
+      "title": "Сотрудникам",
+      "children": [
+        {
+          "link": "i-i-s-ffffffffff-ингредиенты-l",
+          "menuName": null,
+          "caption": "Ингредиенты",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-ffffffffff-напитки-l",
+          "menuName": null,
+          "caption": "Напитки",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-ffffffffff-проверка-денег-l",
+          "menuName": null,
+          "caption": "Проверка денег",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-ffffffffff-продукты-l",
+          "menuName": null,
+          "caption": "Продукты",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-ffffffffff-составы-l",
+          "menuName": null,
+          "caption": "Составы",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-ffffffffff-сотрудники-l",
+          "menuName": null,
+          "caption": "Сотрудники",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

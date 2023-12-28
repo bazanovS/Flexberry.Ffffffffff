@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-ffffffffff-ингредиенты-e",
+  "editForm": "i-i-s-ffffffffff-ингредиенты-e",
+  "external": false,
+  "caption": "Ингредиенты",
+  "name": "IISFfffffffffИнгредиентыL",
+  "className": "ИнгредиентыL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-ffffffffff-ингредиенты",
+      "modelProjection": "ИнгредиентыL"
+    }
+  ]
+}

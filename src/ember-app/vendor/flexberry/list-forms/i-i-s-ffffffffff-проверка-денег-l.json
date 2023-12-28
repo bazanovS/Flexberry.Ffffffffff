@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-ffffffffff-проверка-денег-e",
+  "editForm": "i-i-s-ffffffffff-проверка-денег-e",
+  "external": false,
+  "caption": "Проверка денег",
+  "name": "IISFfffffffffПроверкаДенегL",
+  "className": "ПроверкаДенегL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-ffffffffff-проверка-денег",
+      "modelProjection": "ПроверкаДенегL"
+    }
+  ]
+}

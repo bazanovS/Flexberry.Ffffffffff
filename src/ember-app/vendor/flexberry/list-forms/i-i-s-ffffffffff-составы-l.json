@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-ffffffffff-составы-e",
+  "editForm": "i-i-s-ffffffffff-составы-e",
+  "external": false,
+  "caption": "Составы",
+  "name": "IISFfffffffffСоставыL",
+  "className": "СоставыL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-ffffffffff-составы",
+      "modelProjection": "СоставыL"
+    }
+  ]
+}

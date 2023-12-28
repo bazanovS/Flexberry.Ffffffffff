@@ -1,0 +1,8 @@
+﻿{
+  "nameSpace": "IIS.Ffffffffff",
+  "className": "Оплата",
+  "enumObjects": {
+    "Безналичный": "Безналичный",
+    "Наличный": "Наличный"
+  }
+}
